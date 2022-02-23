@@ -1,0 +1,30 @@
+[
+  {
+    "parameterReference": "heartrate",
+    "parameterTypeInfo": {
+      "parameterType": "Number",
+      "unit": "Bpm"
+    },
+    "actions":
+    { "Read": {
+      "driverType": "BLEDriver",
+      "version": "v0.0",
+      "settings": {
+        "serviceUUID": "180d",
+        "characteristicUUID": "2a37",
+        "mac": "<mac>"
+      }
+    },
+      "Monitor": {
+        "driverType": "BLEDriver",
+        "version": "v0.0",
+        "settings": {
+          "serviceUUID": "180d",
+          "characteristicUUID": "2a37",
+          "mac": "<mac>"
+        }
+      }
+
+    }
+  }
+]

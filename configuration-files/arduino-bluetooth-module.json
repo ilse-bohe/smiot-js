@@ -1,0 +1,66 @@
+[
+  {
+    "parameterReference": "temperature",
+    "parameterTypeInfo": {
+      "parameterType": "Number",
+      "unit": "°C",
+      "validator": {
+        "type": "Number",
+        "values": "range[10, 30]"
+      }
+    },
+    "actions": {
+      "Read": {
+        "driverType": "BLEDriver",
+        "settings": {
+          "characteristicUUID": "E95D0603-251D-470A-A062-FA1922DFA9A7"
+        }
+      },
+      "Write": {
+        "driverType": "BLEDriver",
+        "settings": {
+          "characteristicUUID": "E95D0603-251D-470A-A062-FA1922DFA9A7"
+        }
+      },
+      "Monitor": {
+        "driverType": "BLEDriver",
+        "settings": {
+          "characteristicUUID": "E95D0603-251D-470A-A062-FA1922DFA9A7"
+        }
+      }
+    }
+  },
+
+
+  {
+    "parameterReference": "humidity",
+    "parameterTypeInfo": {
+      "parameterType": "Number",
+      "unit": "%",
+      "validator": {
+        "type": "Number",
+        "values": "range[0, 100]"
+      }
+    },
+    "actions": {
+      "Read": {
+        "driverType": "BLEDriver",
+        "settings": {
+          "characteristicUUID": "E95D0602-251D-470A-A062-FA1922DFA9A7"
+        }
+      },
+      "Write": {
+        "driverType": "BLEDriver",
+        "settings": {
+          "characteristicUUID": "E95D0602-251D-470A-A062-FA1922DFA9A7"
+        }
+      },
+      "Monitor": {
+        "driverType": "BLEDriver",
+        "settings": {
+          "characteristicUUID": "E95D0602-251D-470A-A062-FA1922DFA9A7"
+        }
+      }
+    }
+  }
+]

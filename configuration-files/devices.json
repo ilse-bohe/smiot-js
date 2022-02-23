@@ -1,0 +1,40 @@
+[
+	{
+		"deviceId":"lamp_1",
+		"type":"philips-hue-lamp",
+		"settings" :
+		{
+			"ip":"192.168.42.5",
+			"auth-id":"WpIBuOBDnR6s-TvM63sq1TFQ9AyqFehwMwDBSTXC",
+			"mac":"00:17:88:01:04:d2:9f:bb-0b",
+			"id": "1"
+		}
+	},
+	{
+		"deviceId":"lightsensor_1",
+		"type":"versasense",
+		"settings" :
+		{
+			"mac": "00-17-0D-00-00-30-E9-62",
+			"pid1":"9803",
+			"pid2": "9805"
+		}
+	}
+//,
+//	{
+//		"deviceId":"heartrate_1",
+//		"type":"polar-bluetooth-device",
+//		"settings" :
+//		{
+//			"mac":"A0:9E:1A:3B:37:60"
+//		}
+//	},
+//	{
+//		"deviceId":"temp_hum_1",
+//		"type":"xiaomi-temp-humidity-sensor",
+//		"settings" :
+//		{
+//			"mac":"58:2D:34:33:A8:DA"
+//		}
+//	}
+]

@@ -1,0 +1,31 @@
+[
+  {
+    "assetId":"jan",
+    "type":"elderly",
+    "devices" : ["heartrate_1"],
+    "coupledAssets" :
+    {
+      "lives_in":"r1",
+      "has_caregiver":"els"
+    }
+  }
+,
+  {
+    "assetId":"r1",
+    "type":"residence",
+    "devices" : ["lamp_1"],
+    "coupledAssets" :
+    {
+      "has_resident":"jan"
+    }
+  },
+  {
+    "assetId":"els",
+    "type":"caregiver",
+    "devices" : [],
+    "coupledAssets" :
+    {
+      "has_patient":"jan"
+    }
+  }
+]

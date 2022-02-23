@@ -1,0 +1,21 @@
+[
+  {
+    "parameterReference": "temperature",
+    "parameterTypeInfo": {
+      "parameterType": "Number",
+      "unit": "°C"
+    },
+    "actions":
+    { "Monitor": {
+        "driverType": "BLEDriver",
+        "version": "v0.0",
+        "settings": {
+          "serviceUUID": "0000fe95-0000-1000-8000-00805f9b34fb",
+          "characteristicUUID": "2a37",
+          "mac": "{mac}"
+        }
+      }
+
+    }
+  }
+]
